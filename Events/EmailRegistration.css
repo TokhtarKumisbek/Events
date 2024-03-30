@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('images/EmailRegistrationPage.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+.wrapper{
+    width: 24%;
+    height: 65vh;
+    margin-top: 10%;
+    margin-left: 38%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 30px;
+    /* border: 1px solid #292D3D;
+    background-color: #292D3D;
+    background-color: rgba(41, 45, 61, 0.8); */
+
+   
+}
+
+.warning1 {
+    margin-left: 8%;
+    margin-right: 16%;
+    color: #8E8EA0;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8%; 
+
+}
+
+
+.wrapper .title{
+    width: 84%;
+    height: 5vh;
+    /* background-color: #fff; */
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    /* padding-top: 3%; */
+    letter-spacing: 1px;
+    margin-top: 4%;
+    margin-left: 8%;
+    margin-bottom: 6%;
+  
+ 
+    /* background-color: rgba(240, 240, 240, 0.5); */
+    
+    
+}
+
+
+.wrapper form{
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+
+/* .wrapper form .row{
+    position: relative;
+    width: 100%;
+    height: 5.5vh;
+    background-color: red;
+    border-radius: 10px;
+    margin-bottom: 8%;
+    
+} */
+
+
+.wrapper form input{
+    width: 94%;
+    height: 6vh;
+    padding-left: 4%;
+    border-radius: 10px;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 8%;
+
+}
+
+
+
+.wrapper form .btn{
+    width: 100%;
+    height: 7vh;
+    background-color: #2f6ff7;
+    border: 1px solid #2f6ff7;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 8%;
+}
+
+
+/* .wrapper form .btn:hover{
+    background-color: #fff;
+} */
+
+.underNext {
+    display: flex;
+    justify-content: space-between; /* This will space out the child elements */
+    letter-spacing: 1px;
+    margin-bottom: 9%;
+}
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 20%; /* Width of the login button */
+}
+
+.back {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    width: 15%; /* Width of the back button */
+   
+}
+
+.underNext a {
+    text-decoration: none;
+    color: #2f6ff7;
+}
+
+.terms {
+    margin-right: 12%;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: #8E8EA0;
+
+}
+.terms a {
+    color: #2f6ff7;
+    text-decoration: none;
+}

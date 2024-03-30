@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage</title>
+    <link rel="stylesheet" href="EventUserPage.css">
+    <link rel="stylesheet" href="DropDownMenu.css">
+</head>
+
+<body>
+
+<div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Event Times</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="Events.php">EVENTS</a></li>
+                <li><a href="Event Create.html">CREATE EVENTS</a></li>
+                <li>
+                    <a href="#" onclick="toggleMenu()">Your Profile</a>
+                    <div class="sub-menu-wrap" id="subMenu">
+                        <div class="sub-menu">
+                            <div class="user-info">
+                                <img src="images/SteveJobs.jpg">
+                                <h4>Tokhtar Kumisbek</h4>    
+                                <h5>kumisbek_tokhtar@bk.ru</h5>
+                            </div>
+                            <hr>
+                            <a href="#" class="sub-menu-link">
+                                <img src="images/profile.png" class="img">
+                                <p>Edit Profile</p>
+                                <span>></span>
+                            </a>
+                            <a href="#" class="sub-menu-link">
+                                <img src="images/setting.png" class="img">
+                                <p> Settings & Privacy</p>
+                                <span>></span>
+                            </a>
+                            <a href="#" class="sub-menu-link">
+                                <img src="images/help.png" class="img">
+                                <p>Help & Support</p>
+                                <span>></span>
+                            </a>
+                            <a href="logout.php" class="sub-menu-link"> <!-- Added link to logout.php -->
+                                <img src="images/logout.png" class="imglog">
+                                <p>Logout</p>
+                                <span>></span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="search">
+            <input class="srch" type="search" name="" placeholder="type to search">
+            <a href="#"><button class="btn">Search</button></a>
+        </div>
+     
+        <div class="content">
+            <h1>Experience &<br><span>Extracurricular</span><br>Activities</h1> <br>
+            <p class="par">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere natus dolor sunt ea, <br>
+                fugiat sapiente explicabo neque hic illum, totam non rerum tenetur itaque <br>
+                praesentium quidem quas voluptas, et delectus?</p>
+        </div>
+
+        <div class="btn1">
+            <button class="btn1"><a href="#">JOIN US</a></button>
+        </div>
+    </div>
+</div>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+
+    function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+

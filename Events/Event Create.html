@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="uttf-8">
+    <meta name="viewport" content="width=device-width, initial-scsle=1.0">
+    
+    <link rel="stylesheet" href="Event Create.css">
+     
+</head>
+
+<body>
+
+    
+   
+    <form action="EventCreate.php" method="post" enctype="multipart/form-data">
+
+        <br>
+        <h2 class="text1">Create Event</h2>
+        <div class="box1">
+    
+       
+            <h3 class="text2">Describe it in details</h3><br>
+            <h4 class="Nam">Name*</h4>
+            <input class="Organization" type="text" placeholder="Write Name of your Organization" required name="OrgName" > <br>
+            <input class="EventName" type="text" placeholder="Write Name of Event" required name="EventName"> 
+            
+            <h4 class="Date">Date*<h4></h4>
+            <input class="EventDate" type="date" placeholder="Write date of Event" required name="Date" > <br> <br>
+    
+            <h4 class="Cate">Category*<h4>
+            <select class="Category" placeholder="Choose a category" required name="Category">
+                <option value="Entertainment" class="Entertainment">Entertainment</option>
+                <option value="Social">Social</option>
+                <option value="STEM">STEM</option>
+            </select>
+          
+    
+    
+            <div class="additionalBox"></div>
+            <div class="additionalBox2"></div>
+    
+        </div>
+    
+    
+        <br> 
+        
+    
+        <div class="box2">
+            <h3 class="text2">Images</h3><br>
+            <h4 class="Photo">First Image will be on ad cloud. Drag it to change order</h4>
+            <br>
+            <label for="file">file:<label> <br>
+            <input type="file" id="file" accept="image/png, image/jpeg" name="Picture">
+            
+        </div>
+    
+    
+        <br> 
+    
+        <div class="box3">
+            <h3 class="text2">Description*</h3><br>
+            <textarea id="comment" rows="3" cols="25" placeholder="Think about what details you would like to know from ad. Add them to description" required name="Description"></textarea>
+            
+            
+        </div>
+    
+        <br>
+    
+    
+        <div class="box4">
+            <h3 class="text2">Location*</h3> <br>
+            <input class="Location" placeholder="Name of City " reuiqred name="Location" >
+            
+        </div>
+    
+        <br>
+    
+    
+       <div class="box5">
+            <h3 class="text2">Contact Information*</h3><br>
+            
+            <input class="YourName" placeholder="Your Name " reuiqred name="NameofOrg" > <br> 
+            <input class="YourEmail" placeholder="Your e-amil " reuiqred name="EmailofOrg"> <br>
+            <input class="YourPhone" placeholder="Your phone number " reuiqred name="PhoneofOrg">
+            
+        </div>
+    
+        <br> 
+    
+        <div class="box6">
+            <div class="buttons">
+            <button class="PreLook"><a href="#">Prelook</a></button>
+            <button type="submit" class="Publish" name="Publish" value="Upload">Publish</button>
+            </div>
+            
+          
+            
+        </div>
+   
+    
+
+    
+        <br> 
+
+    </form>
+
+
+</body>

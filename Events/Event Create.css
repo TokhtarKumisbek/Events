@@ -1,0 +1,251 @@
+*{
+    background-color: #f2f4f5;
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+
+}
+
+.text1 {
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    width: 1410px;
+    height: 430px;
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: white;
+   
+}
+
+.text2 {
+    margin-top: 20px;
+    font-weight:500;
+    padding-left: 25px;
+    background-color: white;
+}
+.Nam{
+    margin-left: 25px;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+.Organization{
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    margin-left: 25px;
+
+}
+
+
+.EventName{
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    margin-left: 25px;
+
+}
+
+
+.Cate{
+    letter-spacing: 1px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.Category{
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: 25px;
+    background-color: none;
+    border: 2px solid black;
+    
+
+}
+
+.Date{
+    letter-spacing: 1px;
+    margin-left: 25px;
+    background-color: white;
+}
+
+.EventDate{
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: 25px;
+    background-color: none;
+    border: 2px solid black;
+    
+
+}
+
+
+.additionalBox {
+    border: 1px solid white;
+    width: 885px;
+    height: 50px;
+    background-color: white;
+    margin-left: 525px;
+    margin-top: -50px;
+
+}
+
+.additionalBox2 {
+    border: 1px solid white;
+    width: 25px;
+    height: 50px;
+    margin-top: -50px;
+    background-color: white;
+}
+
+
+
+.box2 {
+    width: 1410px;
+    height: 500px;
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: white;
+   
+}
+
+.box2 .Photo {
+    font-weight: normal;
+    padding-left: 25px;
+    background-color: white;
+}
+
+.box3 {
+    width: 1410px; 
+    height: 400px; 
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: white;
+   
+}
+
+.box3 #comment{
+    width: 1000px;
+    height: 250px;
+    margin-left: 25px; 
+    padding-left: 10px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+
+.box4{
+    width: 1410px; 
+    height: 200px; 
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: white;
+   
+}
+
+.box4 .Location{
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+    margin-left: 25px;
+}
+
+.box5{
+    width: 1410px; 
+    height: 300px; 
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: white;
+   
+}
+
+
+
+.box5 .YourName{
+    width: 350px;   
+    height: 50px;
+    margin-left: 25px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.box5 .YourEmail{
+    width: 350px;   
+    height: 50px;
+    margin-left: 25px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.box5 .YourPhone{
+    width: 350px;   
+    height: 50px;
+    margin-left: 25px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+
+.box6{
+    width: 1410px; 
+    height: 100px; 
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: white;
+   
+}
+
+.box6 .buttons {
+    margin-left: 1000px;
+    background-color: white;
+    margin-top: 27.5px;
+
+}
+
+.box6 .PreLook {
+    width: 140px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+
+   
+
+}
+
+.box6 .PreLook a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #102E33;
+    background-color: white;
+    letter-spacing: 1px;
+    
+    
+}
+
+.box6 .Publish {
+    width: 170px;
+    height: 45px;
+    margin-left: 30px;
+    background-color: #35747E;
+}
+
+.box6 .Publish a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+    letter-spacing: 1px;
+    background-color: #35747E;
+    
+}

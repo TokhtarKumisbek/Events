@@ -1,0 +1,157 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url('images/EmailRegistrationPage.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
+.wrapper{
+    width: 20%;
+    height: 65vh;
+    margin-top: 10%;
+    margin-left: 40%;
+    border: 1px solid #292D3D;
+    background-color: #292D3D;
+    border-radius: 20px;
+    background-color: rgba(41, 45, 61, 0.8);
+
+   
+}
+
+
+.wrapper .title{
+    width: 84%;
+    height: 5vh;
+    /* background-color: #fff; */
+    color: #35747E;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 3%;
+    letter-spacing: 1px;
+    margin-top: 8%;
+    margin-left: 8%;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    border: 1px solid white;
+    /* background-color: rgba(240, 240, 240, 0.5); */
+    
+    
+}
+
+
+.wrapper form{
+    margin-left: 8%;
+    
+}
+
+
+.wrapper form .row{
+    position: relative;
+    width: 92%;
+    height: 5.5vh;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 8%;
+    
+}
+
+
+.wrapper form .row input{
+    width: 100%;
+    height: 100%;
+    padding-left: 4%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 1px solid #35747E;;
+    font-size: 15px;
+
+}
+
+
+
+.wrapper form .btn{
+    width: 92%;
+    height: 5.5vh;
+    background-color: transparent;
+    border: 1px solid #35747E;
+    border-radius: 10px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial;
+    text-align: center;
+    cursor: pointer;
+
+    
+  
+    
+}
+
+
+.wrapper form .btn:hover{
+    background-color: #fff;
+}
+
+
+.wrapper form .pass a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.wrapper form .pass a:hover{
+    color: #35747E;
+}
+
+.wrapper form .SignUp-link{
+    margin-top: 4%;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.wrapper form .SignUp-link a{
+    text-decoration: none;
+    color: #35747E;
+    font-family: Arial;
+    font-style: italic;
+    text-align: center;
+}
+
+.wrapper form .SignUp-link a:hover{
+    color: #fff;
+}
+
+.wrapper form .log{
+    text-align: center;
+    padding-top: 4%;
+    font-style: normal;
+    color: #fff;
+}
+
+.wrapper .icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+   
+    transition: 0.3s ease;
+}
+
+.wrapper .icons ion-icon:hover{
+    color: #35747E;
+} 
+

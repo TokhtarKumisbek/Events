@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+
+.Events {
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.Image {
+    border: 1px solid black;
+    width: 250px; /* adjust as necessary */
+    height: 145px; /* adjust as necessary */
+    background-color: red;
+    overflow: hidden;
+}
+
+.Image img {
+    width: 100%;
+    height: auto;
+    display: block; /* This will fit the image to the container width */
+}
+
+
+.OrgName {
+    margin-left: 280px;
+    margin-top: -145px;
+
+}
+
+.EventName {
+    margin-left: 280px;
+    
+}
+
+.Description {
+    margin-left: 280px;
+    
+
+}
+
+.Date {
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.Category {
+    margin-left: 100px;
+   
+}
+
+.NameofOrg {
+    margin-left: 100px;
+   
+}
+
+.EmailofOrg {
+    margin-left: 100px;
+   
+   
+}
+
+.PhoneofOrg {
+    margin-left: 100px;
+   
+}
+

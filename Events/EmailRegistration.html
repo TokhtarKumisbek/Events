@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="uttf-8">
+    <meta name="viewport" content="width=device-width, initial-scsle=1.0">
+    <link rel="stylesheet" href="EmailRegistration.css">
+     
+</head>
+
+<body>
+    <div class="wrapper">
+        <br>
+        <div class=title><span>Registration for creating events</span></div>
+        <div class="warning1">At the end, the password will be sent to the mail</div>
+        <form action="Authorization.php" method="post">
+            <div class="row">
+                <input type="email" class="type" placeholder="Enter your e-mail here" name="email" required >
+            </div>
+
+            <button type="submit" class="btn" name="loginButton">Next</button>
+
+           <div class="underNext">
+                <div class="login"><a href="Login.html">Login</a></div> 
+                <div class="back" onclick="goBack()"><a href="#">Back</a></div>
+            </div>
+
+            <div class="terms">By continuing to register on the site
+                by any available means,
+                you confirm that you have read
+                and fully agree to the 
+                <a href="#">terms
+                of use of the site</a> </div>
+            
+           
+        </form>
+
+
+    </div>
+
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+    </script>
+</body>
+
+
+</html>

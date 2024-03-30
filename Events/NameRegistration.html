@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="uttf-8">
+    <meta name="viewport" content="width=device-width, initial-scsle=1.0">
+    <link rel="stylesheet" href="NameRegistration.css">
+     
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <br>
+        
+        <form action="Authorization.php" method="post">
+
+            <div class="underNext">
+                <div class="back" onclick="goBack()"><a href="#">Back</a></div>
+                <div class="step">Step 1 out of 3</div>
+            </div>
+
+            <div class=title>What's your name?</div>
+        
+            
+            <div class="row">
+                <input type="text" class="type" placeholder="First Name" name="FirstName" required >
+            </div>
+
+            <div class="row">
+                <input type="text" class="type" placeholder="Last Name" name="LastName" required >
+            </div>
+
+            <button type="submit" class="btn" name="loginButton">Next</button>
+            
+           
+        </form>
+
+
+    </div>
+
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+
+</html>
